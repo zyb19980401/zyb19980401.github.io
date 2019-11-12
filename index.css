@@ -1,0 +1,68 @@
+.greeting {
+	margin: 2.2em auto;
+}
+
+.greeting-1 {
+	font-size: 4em;
+	margin: 0.15em auto;
+}
+
+.greeting-2 {
+	font-size: larger;
+	margin: 0 auto;
+	text-align: center;
+	width: fit-content;
+	white-space: nowrap;
+	border-right: .15em solid white;
+	animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+ 	from, to { border-color: transparent }
+ 	50% { border-color: white; }
+}
+
+.center-button {
+	display: block;
+	margin: 0.5em auto;
+	border: white solid 0.07em;
+	border-radius: 2em;
+	color: white;
+	background-color: black;
+	font-size: 1.25em;
+	padding: 0.5em;
+	transition: 1.5s;
+	visibility: hidden;
+
+	animation: displayButton 2s;
+	animation-delay: 7.5s;
+	-webkit-animation: displayButton 2s;
+	-webkit-animation-delay: 7.5s;
+}
+
+@keyframes displayButton {
+	from {opacity: 0}
+	to {opacity: 100%}
+}
+@-webkit-keyframes displayButton {
+	from {opacity: 0}
+	to {opacity: 100%}
+}
+
+.center-button:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+
+.github-logo {
+	position: absolute;
+	height: 1.5em;
+	width: 1.5em;
+	top: 95%;
+	left: 97%;
+}
+
+.github-logo:hover {
+	cursor: pointer;
+}

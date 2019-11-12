@@ -1,0 +1,32 @@
+.main {
+	width: 45em;
+	height: 20em;
+}
+
+.image-container {
+	display: inline-block;
+}
+
+.profile-photo {
+	position: absolute;
+	height: 20em;
+	transition: 0.8s;
+}
+
+.guitar-photo {
+	position: absolute;
+	height: 20em;
+}
+
+.profile-photo:hover {
+	opacity: 0;
+}
+
+.about-me {
+	position: relative;
+	display: inline-block;
+	max-width: 28em;
+	float: right;
+	padding: 4em 0;
+	line-height: 2;
+}

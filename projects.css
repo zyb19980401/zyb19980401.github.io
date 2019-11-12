@@ -1,0 +1,19 @@
+.main {
+	width: 80%;
+	height: 75%;
+}
+
+.container {
+	display: inline-block;
+	width: 32%;
+	height: 50%;
+	margin: 5% 0;
+}
+
+.images {
+	position: relative;
+	height: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

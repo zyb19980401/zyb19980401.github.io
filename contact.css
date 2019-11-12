@@ -1,0 +1,46 @@
+.main {
+	width: 45em;
+	height: 20em;
+}
+
+#center-content {
+	text-align: center;
+	line-height: 2;
+}
+
+.title {
+	display: block;
+	font-size: 2em;
+	margin: 0;
+}
+
+#email-icon {
+	position: relative;
+	top: 0.2em;
+	height: 1.4em;
+}
+
+p {
+	display: inline;
+	font-size: 1.25em;
+}
+
+.email-me {
+	display: block;
+	width: 10em;
+	margin: 20px auto;
+	border: white solid 2px;
+	border-radius: 15px;
+	color: white;
+	background-color: black;
+	font-size: 1.25em;
+	padding: 15px;
+	transition: 1.5s;
+	text-decoration: none;
+}
+
+.email-me:hover {
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}

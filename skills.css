@@ -1,0 +1,55 @@
+.main {
+	height: 60%;
+	width: 80%;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	height: 33%;
+	width: 100%;
+	margin: 1% 0;
+}
+
+.col {
+	display: inline-block;
+	height: 100%;
+	width: 15%;
+	margin: 0 6.7%;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+}
+
+.skill-icon {
+	position: absolute;
+	height: 75%;
+	width: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: black;
+}
