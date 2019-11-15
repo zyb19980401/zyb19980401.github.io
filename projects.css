@@ -12,8 +12,29 @@
 
 .images {
 	position: relative;
-	height: 80%;
+	height: 110%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+#i-wanna-photo{
+	top:60%;
+	height: 60%;
+	position: absolute;
+	width:50%;
+}
+
+#airCraft-photo{
+	top:60%;
+	height: 60%;
+	position: absolute;
+	width:20%;
+	left: 0%;
+}
+#gameCentre-photo{
+	top:60%;
+	height: 60%;
+	position: absolute;
+	width:20%;
+	left:100%
 }
